@@ -15,7 +15,7 @@ const assignment = {};
  */
 function sumOfNumbers(arrayOfNumbers) {
   totalSum = arrayOfNumbers.reduce( (previousNum, currentNum) => previousNum + currentNum );
-
+  
   //console.log(arrayOfNumbers.length);
   return totalSum;
 }
